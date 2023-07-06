@@ -1,0 +1,72 @@
+.button {
+    margin: 2px;
+    height: 61px;
+    width: 295px;
+}
+
+.button .overlap-group {
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+    backdrop-filter: blur(4px) brightness(100%);
+    border-radius: 16px;
+    height: 49px;
+    position: relative;
+    top: 12px;
+}
+
+.button .submit {
+    -webkit-text-stroke: 0.25px #00000080;
+    color: #ffffff;
+    font-family: "Maven Pro-SemiBold", Helvetica;
+    font-size: 40px;
+    font-weight: 600;
+    height: 26px;
+    left: 86px;
+    letter-spacing: 0;
+    line-height: 25.5px;
+    position: absolute;
+    text-align: center;
+    top: 4px;
+    white-space: nowrap;
+}
+
+.button.alt {
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+    backdrop-filter: blur(4px) brightness(100%);
+    background-color: #cda4d1;
+    border-radius: 16px;
+}
+
+.button.default-hover {
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+    backdrop-filter: blur(4px) brightness(100%);
+    background-color: #33a59a;
+    border-radius: 16px;
+}
+
+.button.default {
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+    backdrop-filter: blur(4px) brightness(100%);
+    background-color: #9cd7d1;
+    border-radius: 16px;
+}
+
+.button.alt-hover {
+    /* background-image: url(./rectangle-3.svg); */
+    background-size: 100% 100%;
+}
+
+.button.alt .overlap-group {
+    background: linear-gradient(180deg, rgba(123, 49, 130, 0) 0%, rgb(175, 70, 185) 100%);
+}
+
+.button.default-hover .overlap-group {
+    background: linear-gradient(180deg, rgba(88, 155, 146, 0) 0%, rgb(88, 155, 146) 100%);
+}
+
+.button.default .overlap-group {
+    background: linear-gradient(180deg, rgba(88, 155, 146, 0) 0%, rgb(88, 155, 146) 100%);
+}
+
+.button.alt-hover .overlap-group {
+    background: linear-gradient(180deg, rgba(175, 70, 185, 0) 0%, rgb(175, 70, 185) 100%);
+}
